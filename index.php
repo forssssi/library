@@ -13,7 +13,7 @@ function getInput(string $prompt): string
 $library = new Library();
 
 while (true) {
-    echo "\n--- Меню ---\n";
+    echo "Меню\n";
     echo "1. Добавить книгу\n";
     echo "2. Удалить книгу по названию\n";
     echo "3. Найти книги по автору\n";
